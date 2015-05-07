@@ -96,8 +96,7 @@ $('.chart').waypoint(function() {
 			  backgrounds:[
 				
 				{ src:'img/slider/01.jpg', fade:1000 },
-				{ src:'img/slider/02.jpg', fade:1000 },
-				{ src:'img/slider/03.jpg', fade:1000 },
+				{ src:'img/slider/jpcreativeteam.jpg', fade:1000 },
 				{ src:'img/slider/04.jpg', fade:1000 }
 			  ]
 			})('overlay', {
