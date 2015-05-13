@@ -79,7 +79,7 @@ background-color: transparent;
 
 #page-welcome{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -168,7 +168,7 @@ background-color: transparent;
 /* ==========================================================================
    Portfolio   
    ========================================================================== */
-
+/*
 #grid-controls-wrapper{
     text-align: center;
     float:none;
@@ -215,7 +215,7 @@ background-color: transparent;
     padding-top: 30%;
 }
 
- 
+ */
  
 .isotope-item {
     z-index: 2;
@@ -263,6 +263,39 @@ background-color: transparent;
        -o-transition-duration: 0s;
           transition-duration: 0s;
 }
+
+.portfolio a {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+
+.portfolio .overlay {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+}
+
+.portfolio img {
+  margin-bottom: 0;
+}
+
+.portfolio .overlay:hover{
+  background: rgba(0,0,0,.45);
+  opacity: 1;
+}
+
+.portfolio .overlay i{
+    font-size: 2em;
+    opacity: 1;
+    color: #fff;
+    padding-top: 30%;
+}
+
+
 
 /* ==========================================================================
    Vegas slider
